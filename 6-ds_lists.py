@@ -47,3 +47,7 @@ print(tuple_ls)
 prices_ls = [item[1] for item in tuple_ls]
 print("List comprehension")
 print(prices_ls)
+
+# Unpacking list
+values = [*range(1, 4), *"Hello"]  # * unpacks individual elements
+print(values)
